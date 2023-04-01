@@ -1,4 +1,4 @@
-###registrationKey: da0a17680f893df8249a5ae4c401735ad9ab6c5594b9e95c4e5d97b46059e4cd
+### registrationKey: da0a17680f893df8249a5ae4c401735ad9ab6c5594b9e95c4e5d97b46059e4cd
 
 # Getting Started with Create React App
 
@@ -72,7 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-###Database Setup:
+### Database Setup:
 
 CREATE DATABASE php_auth_api; 
 CREATE TABLE `users` (

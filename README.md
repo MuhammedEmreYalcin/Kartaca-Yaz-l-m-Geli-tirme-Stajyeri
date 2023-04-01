@@ -1,0 +1,1 @@
+# Kartaca-Yaz-l-m-Geli-tirme-Stajyeri

@@ -1,0 +1,9 @@
+// Websockete gönderilmesi gereken Dosya Postman üzerinden gönderilmiştir 
+
+{
+  "type": "REGISTER",
+  "name": "your name",
+  "surname": "your surname",
+  "email": "your email",
+  "registrationkey": "your registration key"
+}

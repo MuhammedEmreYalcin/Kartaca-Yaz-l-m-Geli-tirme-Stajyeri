@@ -1,4 +1,4 @@
-// Websockete gönderilmesi gereken Dosya Postman üzerinden gönderilmiştir 
+// Websockete gönderilmesi gerekilen Json Formatında Mesaj, Postman.com Sayfası üzerinden gönderilmiştir
 
 {
   "type": "REGISTER",

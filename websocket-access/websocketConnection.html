@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+  </head>
+  <body>
+    <script>
+      const socket = new WebSocket(
+        "wss://cekirdektenyetisenler.kartaca.com/ws"
+      );
+
+      socket.addEventListener("open", (event) => {
+        console.log("WebSocket connection opened.");
+
+        const message = JSON.stringify(registrationData);
+        socket.send(message);
+      });
+
+      socket.addEventListener("message", (event) => {
+        document.write(`Received message: ${event.data}`);
+      });
+
+      socket.addEventListener("error", (event) => {
+        console.error("WebSocket error:", event);
+      });
+    </script>
+  </body>
+</html>

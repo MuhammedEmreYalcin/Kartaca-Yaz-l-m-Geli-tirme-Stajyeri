@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+  </head>
+  <body>
+    <script>
+    const input = 'Povzhv hvmw z nvhhztv drgs xfiivmg hvhhrlm rm qhlm ulinzg erz gsrh vcznkov : {\"gbkv\":\"REGISTER\",\"mznv\":\"blfi mznv\",\"hfimznv\":\"blfi hfimznv\",\"vnzro\":\"blfi vnzro zwwivhh\",\"ivtrhgizgrlmKvb\":\"ccc\"} Kvvk orhgvmrmt mvd nvhhztv uli gzhp xlmgvmg! Ylfi ivtrhgizgrlmKvb : wz0z17680u893wu8249z5zv4x401735zw9zy6x5594y9v95x4v5w97y46059v4xw"}'
+    const letterMap = {
+    A: "Z",
+    B: "Y",
+    C: "X",
+    D: "W",
+    E: "V",
+    F: "U",
+    G: "T",
+    H: "S",
+    I: "R",
+    J: "Q",
+    K: "P",
+    L: "O",
+    M: "N",
+    N: "M",
+    O: "L",
+    P: "K",
+    Q: "J",
+    R: "I",
+    S: "H",
+    T: "G",
+    U: "F",
+    V: "E",
+    W: "D",
+    X: "C",
+    Y: "B",
+    Z: "A"
+  };
+
+  let output = "";
+
+  for (let i = 0; i < input.length; i++) {
+    const currentChar = input[i].toUpperCase();
+    const newChar = letterMap[currentChar] || currentChar;
+    output += newChar;
+  }
+
+  console.log(output); 
+      
+  </script>
+</body>
+</html> 
